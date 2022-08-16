@@ -254,7 +254,6 @@ If you don't have git installed, go to the [Git project page](https://www.git-sc
 =======
 Welcome to the repository of 15.003 Analytics Tools, an exciting class at MIT to learn how to use Python, Julia, and R! 
 You will find all materials and resources for the topics covered in the class. 
->>>>>>> 9488aa0e1b9d709c8e443f4b6957ab364064c11a
 
 - The ```Orientation``` section covers an introduction to GitHub, Julia, and R.
 
