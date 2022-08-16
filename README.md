@@ -1,4 +1,4 @@
-# Orientation Preassignment (August 24-25)
+# Orientation Preassignment (August 23-24)
 
 This is a **long** preassignment that involves lots of software installation and testing. Please leave a total of at least **2 hours** to complete this preassignment. That may seem like a long time, but once you've done it you'll have a powerful suite of software that you can use through your career at MIT and beyond. 
 
