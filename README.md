@@ -4,14 +4,14 @@ This is a **long** preassignment that involves lots of software installation and
 
 **If You Encounter Problems**
 1. If you receive an error message, Google it. 
-2. If you tried that, write an email to `kimvc@mit.edu` and `hwiberg@mit.edu` describing the problem in as much detail as possible, preferably including screenshots.  
+2. If you tried that, write an email to `kimvc@mit.edu` and `midsumer@mit.edu` describing the problem in as much detail as possible, preferably including screenshots.  
 
 
 # 1. Data Analysis: R and RStudio
 
 ## Install R and RStudio
 
-**We are assuming that you have the latest version of R (4.1.1, released on 8/10/21) installed.** You may need to update your installation if you have an older version.
+**We are assuming that you have the latest version of R (4.2.1) installed.** You may need to update your installation if you have an older version.
  
 1. **Install R**: Navigate to [`http://cran.wustl.edu`](http://cran.wustl.edu) and follow the instructions for your operating system. 
 2. **Download RStudio**: Navigate to [`https://www.rstudio.com/products/rstudio/download/`](https://www.rstudio.com/products/rstudio/download/) and download RStudio Desktop with an Open Source License. 
@@ -32,14 +32,14 @@ If you encounter any error messages that you are unable to handle, please email 
 
 # 2. Optimization: Julia and JuMP
 
-**Please try to complete the steps below before the first day of class.**  We will only be using Julia and Gurobi on the second day, but we have very limited time in class and we will not be able to help you with installation problems during the teaching time. If you have difficulties with the installations below, please email `kimvc@mit.edu` and `hwiberg@mit.edu` and include as much information as possible so that we can assist you.
+**Please try to complete the steps below before the first day of class.**  We will only be using Julia and Gurobi on the second day, but we have very limited time in class and we will not be able to help you with installation problems during the teaching time. If you have difficulties with the installations below, please email `kimvc@mit.edu` and `midsumer@mit.edu` and include as much information as possible so that we can assist you.
 
 *Note that you will need to be connected to the MIT network to activate the Gurobi installation, but the other steps can be completed from any location.* 
 
 ## Install Julia
 
 Julia is programming language developed at MIT. To install Julia, go to [`https://julialang.org/downloads/`](https://julialang.org/downloads/) and download the appropriate version for your operating system. See [`here`](https://julialang.org/downloads/platform/) for more detailed instructions.
-We will assume that everyone has installed the most recent version of Julia (v1.6.2). If you have an older version installed, we recommend that you install the newer version as well.
+We will assume that everyone has installed the most recent version of Julia (v1.7.3). If you have an older version installed, we recommend that you install the newer version as well.
 
 To confirm that Julia is installed, open a Julia window by clicking on the Julia icon in your applications menu (note: mac users should make sure Julia is copied into their applications folder). You should see a prompt at the bottom of the new window that looks like this:
 
@@ -99,16 +99,16 @@ julia> notebook()
 install Jupyter via Conda, y/n? [y]: 
 ```
 
-If this is successful, a Jupyter tab will open in the default browser on your computer. Click “New” in the top right corner to make a new notebook (if a menu appears, select Julia 1.6.2). A new tab will open with a blank Jupyter notebook.
+If this is successful, a Jupyter tab will open in the default browser on your computer. Click “New” in the top right corner to make a new notebook (if a menu appears, select Julia 1.7.3). A new tab will open with a blank Jupyter notebook.
 
 
 ## Install Gurobi
 *Note: you must be on the MIT network to activate your academic license. We will leave time at the end of day 1 of orientation for you to complete these steps. If you will not be on campus during orientation, you can use a different solver instead without a license--see notes below.*
 
-Gurobi is a commercial optimization solver that we will use to solve optimization problems in class. Here are the basic steps that you will need to follow to install Gurobi:
+Gurobi is a commercial optimization solver that we will use to solve optimization problems in class. Here are the basic steps that you will need to follow to install Gurobi,: 
 
 1. Register for a Gurobi account on the [gurobi website](https://www.gurobi.com). Use your @mit.edu email address, and select the Academic option (not the commercial option).
-2. Download the Gurobi Optimizer software [`here`](https://www.gurobi.com/downloads/) and install.
+2. Download the Gurobi Optimizer software [`here`](https://www.gurobi.com/downloads/) and install. You might need to log in to the page first, the current stable version is Gurobi 9.5.2.
 3. Create and download an Academic License to use the software [`here`](https://www.gurobi.com/downloads/end-user-license-agreement-academic/).
 4. Use the license file to activate the Gurobi software that you installed. Follow the instructions on the license page to run the grbgetkey command. **Note that you must be connected to the MIT SECURE network to do this.** If you are not on campus, please move on to the next section (IJulia) and come back to this step later.
 
@@ -124,26 +124,26 @@ julia> Pkg.add("Gurobi")
 If you see an error message during this installation, it could be because you did not install/activate Gurobi properly. Please read through the "Installation" information [`here`](https://github.com/JuliaOpt/Gurobi.jl) and see the instructions for setting the GUROBI_HOME environment variable in Julia;
 ```julia
 # On Windows, this might be
-ENV["GUROBI_HOME"] = "C:\\Program Files\\gurobi912\\win64"
+ENV["GUROBI_HOME"] = "C:\\Program Files\\gurobi952\\win64"
 # ... or perhaps ...
-ENV["GUROBI_HOME"] = "C:\\gurobi912\\win64"
+ENV["GUROBI_HOME"] = "C:\\gurobi952\\win64"
 using Pkg
 Pkg.add("Gurobi")
 Pkg.build("Gurobi")
 
 # On Mac, this might be
-ENV["GUROBI_HOME"] = "/Library/gurobi912/mac64"
+ENV["GUROBI_HOME"] = "/Library/gurobi952/mac64"
 using Pkg
 Pkg.add("Gurobi")
 Pkg.build("Gurobi")
 ```
 
-**Note: check the version of Gurobi that you downloaded. The above instructions assume you downloaded version 9.1.2. If you have
-a different version, your path may differ (e.g. Gurobi 9.1.0 -> replace gurobi912 with gurobi910). 
+**Note: check the version of Gurobi that you downloaded. The above instructions assume you downloaded version 9.5.2. If you have
+a different version, your path may differ (e.g. Gurobi 9.5.2 -> replace gurobi950 with gurobi952). 
 If this doesn't work, also check which folder you installed Gurobi in, and update the path accordingly if necessary.**
 
 
-If the Gurobi package is successfully installed in Julia, run the following lines:
+If the Gurobi package is successfully installed in Julia, run the following lines, you might see a warning of Academic license - for non-commercial use only - expires 2023-08-11, this is normal:
 ```julia
 julia> using JuMP, Gurobi
 julia> model = Model(with_optimizer(Gurobi.Optimizer, Presolve=0, OutputFlag=0))
@@ -163,11 +163,22 @@ Solver name: Gurobi
 If you are unable to activate your Gurobi license (i.e. if you are not yet on campus), you can use an open-source solver as a temporary solution. 
 
 Also install the Cbc package, which will be the backend mixed-integer optimization solver for our optimization problems.
-```jl
+```julia
 julia> Pkg.add("Cbc")
 julia> using JuMP, Cbc
 julia> model = Model(with_optimizer(Cbc.Optimizer, Presolve=0, OutputFlag=0))
 ```
+
+You should see this output: 
+```julia
+A JuMP Model
+Feasibility problem with:
+Variables: 0
+Model mode: AUTOMATIC
+CachingOptimizer state: EMPTY_OPTIMIZER
+Solver name: COIN Branch-and-Cut (Cbc)
+```
+
 
 
 ## Final Check
@@ -227,4 +238,8 @@ If you don't have git installed, go to the [Git project page](https://www.git-sc
 	[Test the SSH connection](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection)
 
 
-**If you've made it this far, congratulations!** You now possess a powerful set of tools for analyzing data, solving optimization problems, and collaborating on code. You're ready to go! 
+**If you've made it this far, congratulations!** You now possess a powerful set of tools for analyzing data, solving optimization problems, and collaborating on code. You're ready to go!  
+
+
+
+
