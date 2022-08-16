@@ -30,6 +30,18 @@ library(tidyverse)
 ```
 If you encounter any error messages that you are unable to handle, please email us. 
 
+
+## Introduction to R + Basic Syntax
+
+Donwload the Pre-Assignment folder from Canvas folder in 15.003_FA22/Files/Pre-Assignment, this folder contains a data folder with wine.csv, as well as a R_Basics R file. 
+
+On the top left corner of R Studio, Click on File -> Open File, and navigate to where you have downloaded the file R_Basics.R to open it. You will see a new window open up on the top left corner with some scripts already written for you. Follow along the instructions in the comment and work through the basic syntax. 
+
+
+
+
+
+
 # 2. Optimization: Julia and JuMP
 
 **Please try to complete the steps below before the first day of class.**  We will only be using Julia and Gurobi on the second day, but we have very limited time in class and we will not be able to help you with installation problems during the teaching time. If you have difficulties with the installations below, please email `kimvc@mit.edu` and `midsumer@mit.edu` and include as much information as possible so that we can assist you.

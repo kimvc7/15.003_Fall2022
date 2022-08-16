@@ -70,7 +70,7 @@ a != 4 # checks if a is NOT equal to 4
 # How do I set my working directory?
 # At the top of your screen click Session > Set Working Directory > Choose Directory > Select your Folder
 # You will see an additional line at your console. 
-# For example: "setwd("~/git/mban22_software_tools/session1_R")"
+# For example: "setwd("~/git/mban22_software_tools/R_Basics.R")"
 # You can copy that that line at the top of your script to save it for future use.
 
 ###### Loading a Dataset ###### 
