@@ -1,6 +1,5 @@
-# MIT 15.003 | Analytics Tools
+# Orientation Preassignment (August 23-24)
 
-<<<<<<< HEAD
 This is a **long** preassignment that involves lots of software installation and testing. Please leave a total of at least **2 hours** to complete this preassignment. That may seem like a long time, but once you've done it you'll have a powerful suite of software that you can use through your career at MIT and beyond. 
 
 **If You Encounter Problems**
@@ -34,12 +33,9 @@ If you encounter any error messages that you are unable to handle, please email 
 
 ## Introduction to R + Basic Syntax
 
-Donwload the Pre-Assignment folder from Canvas folder in 15.003_FA22/Files/Pre-Assignment, this folder contains a data folder with wine.csv, as well as a R_Basics R file. 
+Donwload the Pre-Assignment folder from Canvas in 15.003_FA22/Files/Pre-Assignment, it should contain a data folder with wine.csv as well as R_Basics.R. 
 
-On the top left corner of R Studio, Click on File -> Open File, and navigate to where you have downloaded the file R_Basics.R to open it. You will see a new window open up on the top left corner with some scripts already written for you. Follow along the instructions in the comment and work through the basic syntax. 
-
-
-
+On the top left corner of R Studio, Click on File -> Open File, and navigate to where you have downloaded the folder to open it. You will see a new window open up on the top left corner with some scripts already written for you. Follow along the instructions in the comment and work through the basic syntax. 
 
 
 
@@ -252,15 +248,7 @@ If you don't have git installed, go to the [Git project page](https://www.git-sc
 
 
 **If you've made it this far, congratulations!** You now possess a powerful set of tools for analyzing data, solving optimization problems, and collaborating on code. You're ready to go!  
-=======
-Welcome to the repository of 15.003 Analytics Tools, an exciting class at MIT to learn how to use Python, Julia, and R! 
-You will find all materials and resources for the topics covered in the class. 
->>>>>>> 9488aa0e1b9d709c8e443f4b6957ab364064c11a
 
-- The ```Orientation``` section covers an introduction to GitHub, Julia, and R.
 
-Please reach out to us if you have any questions!
 
-Your teaching team,
 
-Kim Villalobos Carballo (kimvc@mit.edu), Yu Ma (midsumer@mit.edu) and Léonard Boussioux (leobix@mit.edu).
