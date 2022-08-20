@@ -48,7 +48,7 @@ On the top left corner of R Studio, Click on File -> Open File, and navigate to 
 ## Install Julia
 
 Julia is programming language developed at MIT. To install Julia, go to [`https://julialang.org/downloads/`](https://julialang.org/downloads/) and download the appropriate version for your operating system. See [`here`](https://julialang.org/downloads/platform/) for more detailed instructions.
-We will assume that everyone has installed the most recent version of Julia (v1.7.3). If you have an older version installed, we recommend that you install the newer version as well.
+We will assume that everyone has installed the most recent version of Julia (v1.7.3). If you have an older version installed, we recommend that you install the newer version as well. Note: Julia just released a newer version this week to v1.8.0, you can find v1.7.3 by scrolling down the page to older releases, or https://julialang.org/downloads/oldreleases/. 
 
 To confirm that Julia is installed, open a Julia window by clicking on the Julia icon in your applications menu (note: mac users should make sure Julia is copied into their applications folder). You should see a prompt at the bottom of the new window that looks like this:
 
