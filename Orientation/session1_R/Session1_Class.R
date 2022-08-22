@@ -340,12 +340,7 @@ listings %>%
 #' EXERCISE: We can address this problem by filtering out neighborhoods below a threshold count using our new num variable. 
 #' Extend the query above to filter to only neighborhoods with > 200 listings.
 
-listings %>%
-  group_by(neighbourhood) %>%
-  summarize(avg.price = mean(price),
-            med.price = median(price),
-            num = n()) %>%
-  filter(num > 200)
+## FILL IN HERE ##
 
 # Example 2: ratings summarized by the number of bedrooms
 # What's new here? we are filtering out NA values.
