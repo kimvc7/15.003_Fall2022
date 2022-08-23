@@ -6,12 +6,12 @@
 ## --------------------------------------------------------------------
 ################################ Agenda ###############################
 ## --------------------------------------------------------------------
-# Part 1: Data wrangling with  dplyr
-# Part 2: Handling missing data
-# Part 3: Plotting with ggplot2 + ggmap
+# Part 1: Part 1: Data cleaning and summarization in dplyr
+# Part 2: dplyr Analysis Examples
+# Part 3: Part 3: Plotting in ggplot2
 
 # ---------------------------------------------------------------------
-########### Part 2: Data cleaning and summarization in dplyr #########
+########### Part 1: Data cleaning and summarization in dplyr #########
 # ---------------------------------------------------------------------
 
 # Now that we have a handle on basic R syntax, we're ready to start working with data!
@@ -180,7 +180,7 @@ inner_join(listings, neighborhood_stats, by = 'neighbourhood') %>%
   select(name, neighbourhood, price, median_price)
 
 ## --------------------------------------------------------------------
-################# Part 3: dplyr Analysis Examples ####################
+################# Part 2: dplyr Analysis Examples ####################
 ## --------------------------------------------------------------------
 #' Example 1: examining trends by neighborhood.
 #' Suppose we're a little worried these averages are skewed by a few outlier listings.
