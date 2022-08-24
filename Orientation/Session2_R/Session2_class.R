@@ -61,7 +61,7 @@ library(e1071)
 #' First, set your working directory to wherever you have the .csv file saved, and then load the file.
 
 
-listings_raw = read.csv("listings.csv",stringsAsFactors=FALSE)
+listings_raw = read.csv("listings.csv", stringsAsFactors=FALSE)
 
 str(listings_raw)
 

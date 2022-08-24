@@ -116,7 +116,8 @@ raw_listings %>% select(name, neighbourhood, price, bedrooms) %>%
 # EXERCISE: The `%in%` operator.
 # Filter the listings to those that accommodate either 2, 4, or 7 AND have at least 2 bedrooms?	
 
-## FILL IN LINE##
+## FILL IN HERE
+
 
 #' Note that the tidyverse packages generally do not change the dataframe objects they act on. 
 #' For example, the code above doesn't change `listings`, but instead returns a new dataframe 
@@ -160,7 +161,8 @@ listings %>%
 #' Which has the highest average accommodation capacity?
 #' Notice that once we create a column in the summarize() function, it's available later in the series of operations!
 
-##FILL IN LINE##
+## FILL IN HERE
+
 
 ##### JOIN functions #####
 #' Our last topic will be how to **join** two data frames together. 
@@ -204,10 +206,13 @@ listings %>%
 #' it indicates that we have *outliers* skewing the average.  Because of those outliers, as a rule of thumb, 
 #' means tend to be a misleading statistic to use with things like rent prices or incomes.
 
-#' EXERCISE: We can address this problem by filtering out neighborhoods below a threshold count using our new num variable. 
-#' Extend the query above to filter to only neighborhoods with > 200 listings.
+#' EXERCISE: We can address this problem by filtering out 
+#' neighborhoods below a threshold count using our new num 
+#' variable. Extend the query above to filter to only 
+#' neighborhoods with > 200 listings.
 
-##FILL IN LINE##
+## FILL IN HERE
+
 
 # Example 2: ratings summarized by the number of bedrooms
 # What's new here? we are filtering out NA values.
@@ -297,7 +302,8 @@ listings %>%
   ggplot(aes(x=bedrooms, y=bathrooms, fill=med)) +
   geom_tile() + 
   scale_fill_gradient(low = "white", high = "steelblue") +
-  labs(x='Bedrooms', y='Bathrooms', fill='Median price', title = "Comparison of Price")
+  labs(x='Bedrooms', y='Bathrooms', fill='Median price', 
+       title = "Comparison of Price")
 
 #### Plotting Distributions ####
 # We can pick out a few of these high end neighborhoods and plot a more detailed view of the distribution of price.
