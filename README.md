@@ -5,7 +5,9 @@ You will find all materials and resources for the topics covered in the class.
 
 - The ```Orientation``` section covers an introduction to GitHub, Julia, and R.
 - The ```intro_to_python``` section provides warm-up content for students who are not familiar with Python.
-- The ```ml_python_tutorials``` section contains an Introduction to Machine Learning, Introduction to Deep Learning in Python, and Advanced Deep Learning content, including a python tutorial on transfer learning.
+- The ``ìntro_to_ml``` section contains an Introduction to Machine Learning in Python.
+- The ```intro_to_deep_learning``` contains an Introduction to Deep Learning in Python, 
+- The ```advanced_deep_learning``` contains Advanced Deep Learning content, including a python tutorial on transfer learning.
 
 Please reach out to us if you have any questions!
 
