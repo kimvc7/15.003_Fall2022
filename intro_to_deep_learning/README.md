@@ -6,6 +6,9 @@ This workshop is divided in 4 parts:
 - Part 3: Fundamentals of Convolutional Neural Networks
 - Part 4: CNN Tutorial in Python using Keras
 
+## Pre-assignment
+Please complete this [pre-assignment](https://colab.research.google.com/drive/1dTX4S1jixn5fe6yjOjXbShoaGcrP3iBi?usp=sharing) before Monday's session!
+
 ### Questions?
 
 Please email Kimberly Villalobos Carballo (kimvc@mit.edu) and Léonard Boussioux (leobix@mit.edu) for any questions about this session :) 
