@@ -9,7 +9,7 @@ This session is divided in 4 parts:
 For part 2, we will use a Google Colab notebook. In class, we will use a simplified version of the tutorial to focus on the essential:  [open this for in-class tutorial](https://colab.research.google.com/drive/1dbH6yh9273dpwl_mZG3EMEisWlXxYjCw?usp=sharing). After that, please save a copy in your own drive so you can follow the class and make modifications. We suggest to run a few cells before hand to make sure the notebook compiles on your browser.
 
 
-If you are curious, want to learn more, or give a second look at the tutorial, follow this [link](https://colab.research.google.com/drive/1oQo5IsO4C6xBb6EFoaoinmYqvj1pg62I?usp=sharing) to open the notebook. There, we provide very complete explanations and code variations.
+If you are curious, want to learn more, or give a second look at the tutorial, follow this [link](https://colab.research.google.com/drive/1oQo5IsO4C6xBb6EFoaoinmYqvj1pg62I?usp=sharing) to open the full notebook. There, we provide very complete explanations and code variations.
 
 You can find the .pdf of the slides [here](https://drive.google.com/file/d/1uAYgGmo1vLt09ypvdKSVACgytcaE2JW1/view?usp=sharing).
 
