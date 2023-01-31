@@ -11,7 +11,7 @@ For part 2, we will use a Google Colab notebook. In class, we will use a simplif
 
 If you are curious, want to learn more, or give a second look at the tutorial, follow this [link](https://colab.research.google.com/drive/1oQo5IsO4C6xBb6EFoaoinmYqvj1pg62I?usp=sharing) to open the full notebook. There, we provide very complete explanations and code variations.
 
-You can find the .pdf of the slides [here](https://drive.google.com/file/d/1uAYgGmo1vLt09ypvdKSVACgytcaE2JW1/view?usp=sharing).
+You can find the .pdf of the slides [here](https://drive.google.com/file/d/1AjJoosT835NXOpKchPiOwTdcKfopmQFh/view?usp=sharing).
 
 See you on Tuesday!
 
